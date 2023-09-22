@@ -1,0 +1,69 @@
+@media (max-width: 576px) {
+  .cart {
+    left: 0;
+    width: 100%;
+    border: none;
+  }
+
+  .cart-item {
+    flex-wrap: wrap;
+  }
+
+  .hero-info p {
+    width: 70%;
+    max-width: unset;
+  }
+
+  .info-card p {
+    width: 90%;
+  }
+
+  .info-card {
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+  }
+
+  #discover {
+    width: 80%;
+  }
+
+  #discover h2 {
+    font-size: 48px;
+    width: 100%;
+  }
+
+  .discover-text {
+    width: 100%;
+    padding: 10px;
+    line-height: 30px;
+    gap: 50px;
+  }
+
+  .discover-text a {
+    font-size: 20px;
+  }
+
+  .categories {
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .category {
+    width: 120px;
+  }
+
+  .products-container {
+    width: 80%;
+  }
+
+  .product {
+    width: 100%;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    text-align: center;
+  }
+}
